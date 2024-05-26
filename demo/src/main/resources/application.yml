@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: demo
+    security:
+      oauth2:
+        client:
+            registration:
+              github:
+#                Homepage URL http://localhost:8080/
+#                Authorization callback URL http://localhost:8080/login/oauth2/code/github
+                  client-id:
+                  client-secret:
+server:
+  port: 8080
